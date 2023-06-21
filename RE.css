@@ -1,0 +1,317 @@
+#CardSection{
+    background-color: #212121;
+    color: white;
+}
+
+#CardSection #news{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#CardSection #news h3{
+    font-size: 21px;
+    font-weight: 650;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#CardSection #Cards{
+    display: flex;
+}
+
+#CardSection #Cards div{
+    width: 25%;
+    height: 210px;
+    overflow: hidden;
+}
+
+#CardSection #Cards div img{
+    width: 100%;
+
+}
+
+#CardSection #Cards div p{
+    position: relative;
+    top: -80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+#CardSection #Cards div img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#Motorcycles{
+    display: flex;
+    background-color: #212121;
+    color: white;
+    position: relative;
+}
+
+#Motorcycles h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+#Motorcycles ul li span{
+    color: red;
+}
+
+#Motorcycles ul{
+    list-style: none;
+    display:flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.hover:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#ImagSection img{
+    width: 100%;
+}
+
+#ImagSection button{
+    position: absolute;
+    left: 69%;
+    top: 225%;
+    width: 90px;
+    height: 34px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#Rides{
+    display: flex;
+    background-color: #212121;
+    color: white;
+    position: relative;
+}
+
+#Rides h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+#Rides ul li span{
+    color: red;
+}
+
+#Rides ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#Apparel{
+    display: flex;
+    background-color: #212121;
+    color: white;
+}
+
+#Apparel h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+#Apparel ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#Accessories{
+    display: flex;
+    background-color: #212121;
+    color: white;
+}
+
+#Accessories h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+#Accessories ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#LocateUs{
+    display: flex;
+    background-color: #212121;
+    color: white;
+}
+
+#LocateUs h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+#LocateUs ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#TagsCardSection{
+    background-color: #212121;
+    color: white;
+}
+
+#TagsCardSection #tags{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#TagsCardSection #tags h3{
+    font-size: 21px;
+    font-weight: 650;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#TagsCardSection #card1 div{
+    width: 25px;
+    /* height: 210px; */
+    /* overflow: hidden; */
+}
+
+/* #TagsCardSection #card1 div img{
+    width: 50%;
+
+} */
+
+#footer{
+    background-color: #e5e3e3;
+}
+
+#footer #right{
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    gap: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+}
+
+#footer #right h5{
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#footer #right a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+#footer #topline {
+    border-top: 1px solid #c5c4c4 ;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#footer #FooterTable table tr th{
+    padding-left: 52px;
+    padding-bottom: 10px; 
+    font-size: 17px;   
+}
+
+#footer #FooterTable table{
+    margin-bottom: 40px;
+}
+
+#footer #FooterTable table td{
+    padding-left: 51px;
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+#footer #Copyright {
+    border-top: 1px solid #c5c4c4 ;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#Copyright p{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+#Copyright{
+    display: flex;
+} 
+
+#Copyright ul{
+    display: flex;
+    list-style: none;
+    margin-left: 460px;
+    margin-top: 10px;
+    gap: 7px;
+}
+
+#Copyright ul li{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
