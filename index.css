@@ -201,29 +201,13 @@
     color: white;
 }
 
-#TagsCardSection #tags{
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-#TagsCardSection #tags h3{
+#TagsCardSection h3{
     font-size: 21px;
     font-weight: 650;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-align: center;
 }
-
-#TagsCardSection #card1 div{
-    width: 25px;
-    /* height: 210px; */
-    /* overflow: hidden; */
-}
-
-/* #TagsCardSection #card1 div img{
-    width: 50%;
-
-} */
 
 #footer{
     background-color: #e5e3e3;
