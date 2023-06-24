@@ -123,6 +123,9 @@
     font-size: 14px;
     font-weight: 500;
 }
+#RideImageSection img{
+    width: 100%;
+}
 
 #Apparel{
     display: flex;
@@ -146,6 +149,10 @@
     margin-top: 13px;
     font-size: 14px;
     font-weight: 500;
+}
+
+#ApparelImageSection img{
+    width: 100%;
 }
 
 #Accessories{
@@ -172,6 +179,10 @@
     font-weight: 500;
 }
 
+#AccessoriesImageSection img{
+    width: 100%;
+}
+
 #LocateUs{
     display: flex;
     background-color: #212121;
@@ -196,10 +207,21 @@
     font-weight: 500;
 }
 
+#LocateUsImageSection img{
+    width: 100%;
+}
+
 #TagsCardSection{
     background-color: #212121;
     color: white;
 }
+
+/* #TagsCardSection #tags{
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+} */
 
 #TagsCardSection h3{
     font-size: 21px;
@@ -208,6 +230,13 @@
     padding-bottom: 5px;
     text-align: center;
 }
+
+/* #TagsCardSection #card1 div img{
+    width: 50%;
+
+} */
+
+
 
 #footer{
     background-color: #e5e3e3;
